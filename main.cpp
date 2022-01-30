@@ -36,7 +36,7 @@ static void sendNotif(string title, string desc, string desc2);
 
 void run() {
   while (true) {
-    std::this_thread::sleep_for(std::chrono::milliseconds(1000 * 60 * 60));
+    std::this_thread::sleep_for(std::chrono::milliseconds(1000 * 60 * 10));
     std::cout << "checking xkcds" << std::endl;
 
     ifstream file;
